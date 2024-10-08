@@ -7,73 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5331B2A52CB2CE6D00E241AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */; };
-		5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2A82CB2CE6D00E241AE /* Actions.sks */; };
-		5331B2AB2CB2CE6D00E241AE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AA2CB2CE6D00E241AE /* GameScene.swift */; };
-		5331B2AD2CB2CE6D00E241AE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */; };
-		5331B2B02CB2CE6D00E241AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2AF2CB2CE6D00E241AE /* Base */; };
-		5331B2B22CB2CE6E00E241AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2B12CB2CE6E00E241AE /* Assets.xcassets */; };
-		5331B2B52CB2CE6E00E241AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2B42CB2CE6E00E241AE /* Base */; };
-		5331B2BF2CB2CE6E00E241AE /* tulutuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */; };
-		5331B2C92CB2CE6E00E241AE /* tulutuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */; };
-		5331B2CB2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */; };
-		53DB3BD52CB4252F0012D914 /* test.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD42CB4252F0012D914 /* test.sks */; };
-		53DB3BD72CB50C3D0012D914 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */; };
-		53DB3BD92CB50EB70012D914 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD82CB50EB70012D914 /* GameScene.sks */; };
+		53AD4FBB2CB51B9200D22811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */; };
+		53AD4FBD2CB51B9200D22811 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FBC2CB51B9200D22811 /* GameScene.sks */; };
+		53AD4FBF2CB51B9200D22811 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FBE2CB51B9200D22811 /* Actions.sks */; };
+		53AD4FC12CB51B9200D22811 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FC02CB51B9200D22811 /* GameScene.swift */; };
+		53AD4FC32CB51B9200D22811 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FC22CB51B9200D22811 /* GameViewController.swift */; };
+		53AD4FC62CB51B9200D22811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FC52CB51B9200D22811 /* Base */; };
+		53AD4FC82CB51B9300D22811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FC72CB51B9300D22811 /* Assets.xcassets */; };
+		53AD4FCB2CB51B9300D22811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FCA2CB51B9300D22811 /* Base */; };
+		53AD4FD52CB51B9300D22811 /* tulutuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FD42CB51B9300D22811 /* tulutuluTests.swift */; };
+		53AD4FDF2CB51B9300D22811 /* tulutuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FDE2CB51B9300D22811 /* tulutuluUITests.swift */; };
+		53AD4FE12CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FE02CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift */; };
+		53AD4FEE2CB51C4100D22811 /* GameTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FED2CB51C4100D22811 /* GameTileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5331B2BB2CB2CE6E00E241AE /* PBXContainerItemProxy */ = {
+		53AD4FD12CB51B9300D22811 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5331B2992CB2CE6D00E241AE /* Project object */;
+			containerPortal = 53AD4FAF2CB51B9200D22811 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5331B2A02CB2CE6D00E241AE;
+			remoteGlobalIDString = 53AD4FB62CB51B9200D22811;
 			remoteInfo = tulutulu;
 		};
-		5331B2C52CB2CE6E00E241AE /* PBXContainerItemProxy */ = {
+		53AD4FDB2CB51B9300D22811 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5331B2992CB2CE6D00E241AE /* Project object */;
+			containerPortal = 53AD4FAF2CB51B9200D22811 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5331B2A02CB2CE6D00E241AE;
+			remoteGlobalIDString = 53AD4FB62CB51B9200D22811;
 			remoteInfo = tulutulu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5331B2A12CB2CE6D00E241AE /* tulutulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulutulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5331B2A82CB2CE6D00E241AE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5331B2AA2CB2CE6D00E241AE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		5331B2AF2CB2CE6D00E241AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5331B2B12CB2CE6E00E241AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5331B2B42CB2CE6E00E241AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5331B2BA2CB2CE6E00E241AE /* tulutuluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluTests.swift; sourceTree = "<group>"; };
-		5331B2C42CB2CE6E00E241AE /* tulutuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITests.swift; sourceTree = "<group>"; };
-		5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		53DB3BD42CB4252F0012D914 /* test.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = test.sks; sourceTree = "<group>"; };
-		53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
-		53DB3BD82CB50EB70012D914 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		53AD4FB72CB51B9200D22811 /* tulutulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulutulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53AD4FBC2CB51B9200D22811 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		53AD4FBE2CB51B9200D22811 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		53AD4FC02CB51B9200D22811 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		53AD4FC22CB51B9200D22811 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		53AD4FC52CB51B9200D22811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53AD4FC72CB51B9300D22811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AD4FCA2CB51B9300D22811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53AD4FD02CB51B9300D22811 /* tulutuluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AD4FD42CB51B9300D22811 /* tulutuluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluTests.swift; sourceTree = "<group>"; };
+		53AD4FDA2CB51B9300D22811 /* tulutuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AD4FDE2CB51B9300D22811 /* tulutuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITests.swift; sourceTree = "<group>"; };
+		53AD4FE02CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53AD4FED2CB51C4100D22811 /* GameTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameTileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5331B29E2CB2CE6D00E241AE /* Frameworks */ = {
+		53AD4FB42CB51B9200D22811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2B72CB2CE6E00E241AE /* Frameworks */ = {
+		53AD4FCD2CB51B9300D22811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2C12CB2CE6E00E241AE /* Frameworks */ = {
+		53AD4FD72CB51B9300D22811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,56 +81,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5331B2982CB2CE6D00E241AE = {
+		53AD4FAE2CB51B9200D22811 = {
 			isa = PBXGroup;
 			children = (
-				5331B2A32CB2CE6D00E241AE /* tulutulu */,
-				5331B2BD2CB2CE6E00E241AE /* tulutuluTests */,
-				5331B2C72CB2CE6E00E241AE /* tulutuluUITests */,
-				5331B2A22CB2CE6D00E241AE /* Products */,
+				53AD4FB92CB51B9200D22811 /* tulutulu */,
+				53AD4FD32CB51B9300D22811 /* tulutuluTests */,
+				53AD4FDD2CB51B9300D22811 /* tulutuluUITests */,
+				53AD4FB82CB51B9200D22811 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5331B2A22CB2CE6D00E241AE /* Products */ = {
+		53AD4FB82CB51B9200D22811 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5331B2A12CB2CE6D00E241AE /* tulutulu.app */,
-				5331B2BA2CB2CE6E00E241AE /* tulutuluTests.xctest */,
-				5331B2C42CB2CE6E00E241AE /* tulutuluUITests.xctest */,
+				53AD4FB72CB51B9200D22811 /* tulutulu.app */,
+				53AD4FD02CB51B9300D22811 /* tulutuluTests.xctest */,
+				53AD4FDA2CB51B9300D22811 /* tulutuluUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5331B2A32CB2CE6D00E241AE /* tulutulu */ = {
+		53AD4FB92CB51B9200D22811 /* tulutulu */ = {
 			isa = PBXGroup;
 			children = (
-				5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */,
-				53DB3BD42CB4252F0012D914 /* test.sks */,
-				5331B2A82CB2CE6D00E241AE /* Actions.sks */,
-				5331B2AA2CB2CE6D00E241AE /* GameScene.swift */,
-				5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */,
-				5331B2AE2CB2CE6D00E241AE /* Main.storyboard */,
-				53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */,
-				5331B2B12CB2CE6E00E241AE /* Assets.xcassets */,
-				5331B2B32CB2CE6E00E241AE /* LaunchScreen.storyboard */,
-				53DB3BD82CB50EB70012D914 /* GameScene.sks */,
+				53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */,
+				53AD4FBC2CB51B9200D22811 /* GameScene.sks */,
+				53AD4FED2CB51C4100D22811 /* GameTileSet.sks */,
+				53AD4FBE2CB51B9200D22811 /* Actions.sks */,
+				53AD4FC02CB51B9200D22811 /* GameScene.swift */,
+				53AD4FC22CB51B9200D22811 /* GameViewController.swift */,
+				53AD4FC42CB51B9200D22811 /* Main.storyboard */,
+				53AD4FC72CB51B9300D22811 /* Assets.xcassets */,
+				53AD4FC92CB51B9300D22811 /* LaunchScreen.storyboard */,
 			);
 			path = tulutulu;
 			sourceTree = "<group>";
 		};
-		5331B2BD2CB2CE6E00E241AE /* tulutuluTests */ = {
+		53AD4FD32CB51B9300D22811 /* tulutuluTests */ = {
 			isa = PBXGroup;
 			children = (
-				5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */,
+				53AD4FD42CB51B9300D22811 /* tulutuluTests.swift */,
 			);
 			path = tulutuluTests;
 			sourceTree = "<group>";
 		};
-		5331B2C72CB2CE6E00E241AE /* tulutuluUITests */ = {
+		53AD4FDD2CB51B9300D22811 /* tulutuluUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */,
-				5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */,
+				53AD4FDE2CB51B9300D22811 /* tulutuluUITests.swift */,
+				53AD4FE02CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift */,
 			);
 			path = tulutuluUITests;
 			sourceTree = "<group>";
@@ -140,13 +137,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5331B2A02CB2CE6D00E241AE /* tulutulu */ = {
+		53AD4FB62CB51B9200D22811 /* tulutulu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5331B2CE2CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutulu" */;
+			buildConfigurationList = 53AD4FE42CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutulu" */;
 			buildPhases = (
-				5331B29D2CB2CE6D00E241AE /* Sources */,
-				5331B29E2CB2CE6D00E241AE /* Frameworks */,
-				5331B29F2CB2CE6D00E241AE /* Resources */,
+				53AD4FB32CB51B9200D22811 /* Sources */,
+				53AD4FB42CB51B9200D22811 /* Frameworks */,
+				53AD4FB52CB51B9200D22811 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,69 +151,69 @@
 			);
 			name = tulutulu;
 			productName = tulutulu;
-			productReference = 5331B2A12CB2CE6D00E241AE /* tulutulu.app */;
+			productReference = 53AD4FB72CB51B9200D22811 /* tulutulu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5331B2B92CB2CE6E00E241AE /* tulutuluTests */ = {
+		53AD4FCF2CB51B9300D22811 /* tulutuluTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5331B2D12CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutuluTests" */;
+			buildConfigurationList = 53AD4FE72CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutuluTests" */;
 			buildPhases = (
-				5331B2B62CB2CE6E00E241AE /* Sources */,
-				5331B2B72CB2CE6E00E241AE /* Frameworks */,
-				5331B2B82CB2CE6E00E241AE /* Resources */,
+				53AD4FCC2CB51B9300D22811 /* Sources */,
+				53AD4FCD2CB51B9300D22811 /* Frameworks */,
+				53AD4FCE2CB51B9300D22811 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5331B2BC2CB2CE6E00E241AE /* PBXTargetDependency */,
+				53AD4FD22CB51B9300D22811 /* PBXTargetDependency */,
 			);
 			name = tulutuluTests;
 			productName = tulutuluTests;
-			productReference = 5331B2BA2CB2CE6E00E241AE /* tulutuluTests.xctest */;
+			productReference = 53AD4FD02CB51B9300D22811 /* tulutuluTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5331B2C32CB2CE6E00E241AE /* tulutuluUITests */ = {
+		53AD4FD92CB51B9300D22811 /* tulutuluUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5331B2D42CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutuluUITests" */;
+			buildConfigurationList = 53AD4FEA2CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutuluUITests" */;
 			buildPhases = (
-				5331B2C02CB2CE6E00E241AE /* Sources */,
-				5331B2C12CB2CE6E00E241AE /* Frameworks */,
-				5331B2C22CB2CE6E00E241AE /* Resources */,
+				53AD4FD62CB51B9300D22811 /* Sources */,
+				53AD4FD72CB51B9300D22811 /* Frameworks */,
+				53AD4FD82CB51B9300D22811 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5331B2C62CB2CE6E00E241AE /* PBXTargetDependency */,
+				53AD4FDC2CB51B9300D22811 /* PBXTargetDependency */,
 			);
 			name = tulutuluUITests;
 			productName = tulutuluUITests;
-			productReference = 5331B2C42CB2CE6E00E241AE /* tulutuluUITests.xctest */;
+			productReference = 53AD4FDA2CB51B9300D22811 /* tulutuluUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5331B2992CB2CE6D00E241AE /* Project object */ = {
+		53AD4FAF2CB51B9200D22811 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					5331B2A02CB2CE6D00E241AE = {
+					53AD4FB62CB51B9200D22811 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					5331B2B92CB2CE6E00E241AE = {
+					53AD4FCF2CB51B9300D22811 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 5331B2A02CB2CE6D00E241AE;
+						TestTargetID = 53AD4FB62CB51B9200D22811;
 					};
-					5331B2C32CB2CE6E00E241AE = {
+					53AD4FD92CB51B9300D22811 = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 5331B2A02CB2CE6D00E241AE;
+						TestTargetID = 53AD4FB62CB51B9200D22811;
 					};
 				};
 			};
-			buildConfigurationList = 5331B29C2CB2CE6D00E241AE /* Build configuration list for PBXProject "tulutulu" */;
+			buildConfigurationList = 53AD4FB22CB51B9200D22811 /* Build configuration list for PBXProject "tulutulu" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,41 +221,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 5331B2982CB2CE6D00E241AE;
-			productRefGroup = 5331B2A22CB2CE6D00E241AE /* Products */;
+			mainGroup = 53AD4FAE2CB51B9200D22811;
+			productRefGroup = 53AD4FB82CB51B9200D22811 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5331B2A02CB2CE6D00E241AE /* tulutulu */,
-				5331B2B92CB2CE6E00E241AE /* tulutuluTests */,
-				5331B2C32CB2CE6E00E241AE /* tulutuluUITests */,
+				53AD4FB62CB51B9200D22811 /* tulutulu */,
+				53AD4FCF2CB51B9300D22811 /* tulutuluTests */,
+				53AD4FD92CB51B9300D22811 /* tulutuluUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5331B29F2CB2CE6D00E241AE /* Resources */ = {
+		53AD4FB52CB51B9200D22811 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5331B2B02CB2CE6D00E241AE /* Base in Resources */,
-				5331B2B22CB2CE6E00E241AE /* Assets.xcassets in Resources */,
-				53DB3BD72CB50C3D0012D914 /* MyTileSet.sks in Resources */,
-				5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */,
-				53DB3BD92CB50EB70012D914 /* GameScene.sks in Resources */,
-				5331B2B52CB2CE6E00E241AE /* Base in Resources */,
-				53DB3BD52CB4252F0012D914 /* test.sks in Resources */,
+				53AD4FBD2CB51B9200D22811 /* GameScene.sks in Resources */,
+				53AD4FC62CB51B9200D22811 /* Base in Resources */,
+				53AD4FC82CB51B9300D22811 /* Assets.xcassets in Resources */,
+				53AD4FBF2CB51B9200D22811 /* Actions.sks in Resources */,
+				53AD4FEE2CB51C4100D22811 /* GameTileSet.sks in Resources */,
+				53AD4FCB2CB51B9300D22811 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2B82CB2CE6E00E241AE /* Resources */ = {
+		53AD4FCE2CB51B9300D22811 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2C22CB2CE6E00E241AE /* Resources */ = {
+		53AD4FD82CB51B9300D22811 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,61 +264,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5331B29D2CB2CE6D00E241AE /* Sources */ = {
+		53AD4FB32CB51B9200D22811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5331B2AB2CB2CE6D00E241AE /* GameScene.swift in Sources */,
-				5331B2AD2CB2CE6D00E241AE /* GameViewController.swift in Sources */,
-				5331B2A52CB2CE6D00E241AE /* AppDelegate.swift in Sources */,
+				53AD4FC12CB51B9200D22811 /* GameScene.swift in Sources */,
+				53AD4FC32CB51B9200D22811 /* GameViewController.swift in Sources */,
+				53AD4FBB2CB51B9200D22811 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2B62CB2CE6E00E241AE /* Sources */ = {
+		53AD4FCC2CB51B9300D22811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5331B2BF2CB2CE6E00E241AE /* tulutuluTests.swift in Sources */,
+				53AD4FD52CB51B9300D22811 /* tulutuluTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5331B2C02CB2CE6E00E241AE /* Sources */ = {
+		53AD4FD62CB51B9300D22811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5331B2CB2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift in Sources */,
-				5331B2C92CB2CE6E00E241AE /* tulutuluUITests.swift in Sources */,
+				53AD4FE12CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift in Sources */,
+				53AD4FDF2CB51B9300D22811 /* tulutuluUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5331B2BC2CB2CE6E00E241AE /* PBXTargetDependency */ = {
+		53AD4FD22CB51B9300D22811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5331B2A02CB2CE6D00E241AE /* tulutulu */;
-			targetProxy = 5331B2BB2CB2CE6E00E241AE /* PBXContainerItemProxy */;
+			target = 53AD4FB62CB51B9200D22811 /* tulutulu */;
+			targetProxy = 53AD4FD12CB51B9300D22811 /* PBXContainerItemProxy */;
 		};
-		5331B2C62CB2CE6E00E241AE /* PBXTargetDependency */ = {
+		53AD4FDC2CB51B9300D22811 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5331B2A02CB2CE6D00E241AE /* tulutulu */;
-			targetProxy = 5331B2C52CB2CE6E00E241AE /* PBXContainerItemProxy */;
+			target = 53AD4FB62CB51B9200D22811 /* tulutulu */;
+			targetProxy = 53AD4FDB2CB51B9300D22811 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5331B2AE2CB2CE6D00E241AE /* Main.storyboard */ = {
+		53AD4FC42CB51B9200D22811 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5331B2AF2CB2CE6D00E241AE /* Base */,
+				53AD4FC52CB51B9200D22811 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5331B2B32CB2CE6E00E241AE /* LaunchScreen.storyboard */ = {
+		53AD4FC92CB51B9300D22811 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5331B2B42CB2CE6E00E241AE /* Base */,
+				53AD4FCA2CB51B9300D22811 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +326,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5331B2CC2CB2CE6E00E241AE /* Debug */ = {
+		53AD4FE22CB51B9300D22811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		5331B2CD2CB2CE6E00E241AE /* Release */ = {
+		53AD4FE32CB51B9300D22811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -449,7 +445,7 @@
 			};
 			name = Release;
 		};
-		5331B2CF2CB2CE6E00E241AE /* Debug */ = {
+		53AD4FE52CB51B9300D22811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -477,7 +473,7 @@
 			};
 			name = Debug;
 		};
-		5331B2D02CB2CE6E00E241AE /* Release */ = {
+		53AD4FE62CB51B9300D22811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -505,7 +501,7 @@
 			};
 			name = Release;
 		};
-		5331B2D22CB2CE6E00E241AE /* Debug */ = {
+		53AD4FE82CB51B9300D22811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +521,7 @@
 			};
 			name = Debug;
 		};
-		5331B2D32CB2CE6E00E241AE /* Release */ = {
+		53AD4FE92CB51B9300D22811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,7 +541,7 @@
 			};
 			name = Release;
 		};
-		5331B2D52CB2CE6E00E241AE /* Debug */ = {
+		53AD4FEB2CB51B9300D22811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,7 +559,7 @@
 			};
 			name = Debug;
 		};
-		5331B2D62CB2CE6E00E241AE /* Release */ = {
+		53AD4FEC2CB51B9300D22811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -584,43 +580,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5331B29C2CB2CE6D00E241AE /* Build configuration list for PBXProject "tulutulu" */ = {
+		53AD4FB22CB51B9200D22811 /* Build configuration list for PBXProject "tulutulu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5331B2CC2CB2CE6E00E241AE /* Debug */,
-				5331B2CD2CB2CE6E00E241AE /* Release */,
+				53AD4FE22CB51B9300D22811 /* Debug */,
+				53AD4FE32CB51B9300D22811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5331B2CE2CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutulu" */ = {
+		53AD4FE42CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutulu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5331B2CF2CB2CE6E00E241AE /* Debug */,
-				5331B2D02CB2CE6E00E241AE /* Release */,
+				53AD4FE52CB51B9300D22811 /* Debug */,
+				53AD4FE62CB51B9300D22811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5331B2D12CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutuluTests" */ = {
+		53AD4FE72CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutuluTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5331B2D22CB2CE6E00E241AE /* Debug */,
-				5331B2D32CB2CE6E00E241AE /* Release */,
+				53AD4FE82CB51B9300D22811 /* Debug */,
+				53AD4FE92CB51B9300D22811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5331B2D42CB2CE6E00E241AE /* Build configuration list for PBXNativeTarget "tulutuluUITests" */ = {
+		53AD4FEA2CB51B9300D22811 /* Build configuration list for PBXNativeTarget "tulutuluUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5331B2D52CB2CE6E00E241AE /* Debug */,
-				5331B2D62CB2CE6E00E241AE /* Release */,
+				53AD4FEB2CB51B9300D22811 /* Debug */,
+				53AD4FEC2CB51B9300D22811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5331B2992CB2CE6D00E241AE /* Project object */;
+	rootObject = 53AD4FAF2CB51B9200D22811 /* Project object */;
 }
