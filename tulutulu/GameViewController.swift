@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  tulutulu
+//  cobacoba
 //
-//  Created by Dhammiko Dharmawan on 08/10/24.
+//  Created by jessiline imanuela on 06/10/24.
 //
 
 import UIKit
@@ -22,8 +22,8 @@ class GameViewController: UIViewController {
             if let sceneNode = scene.rootNode as! GameScene? {
                 
                 // Copy gameplay related content over to the scene
-                sceneNode.entities = scene.entities
-                sceneNode.graphs = scene.graphs
+//                sceneNode.entities = scene.entities
+//                sceneNode.graphs = scene.graphs
                 
                 // Set the scale mode to scale to fit the window
                 sceneNode.scaleMode = .aspectFill

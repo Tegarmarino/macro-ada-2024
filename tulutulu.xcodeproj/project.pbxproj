@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53AD4FBB2CB51B9200D22811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */; };
-		53AD4FBD2CB51B9200D22811 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FBC2CB51B9200D22811 /* GameScene.sks */; };
-		53AD4FBF2CB51B9200D22811 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FBE2CB51B9200D22811 /* Actions.sks */; };
-		53AD4FC12CB51B9200D22811 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FC02CB51B9200D22811 /* GameScene.swift */; };
-		53AD4FC32CB51B9200D22811 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FC22CB51B9200D22811 /* GameViewController.swift */; };
-		53AD4FC62CB51B9200D22811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FC52CB51B9200D22811 /* Base */; };
-		53AD4FC82CB51B9300D22811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FC72CB51B9300D22811 /* Assets.xcassets */; };
-		53AD4FCB2CB51B9300D22811 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FCA2CB51B9300D22811 /* Base */; };
-		53AD4FD52CB51B9300D22811 /* tulutuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FD42CB51B9300D22811 /* tulutuluTests.swift */; };
-		53AD4FDF2CB51B9300D22811 /* tulutuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FDE2CB51B9300D22811 /* tulutuluUITests.swift */; };
-		53AD4FE12CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD4FE02CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift */; };
-		53AD4FEE2CB51C4100D22811 /* GameTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53AD4FED2CB51C4100D22811 /* GameTileSet.sks */; };
+		304D02F72CB520F90069883E /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304D02F62CB520F90069883E /* MyTileSet.sks */; };
+		5331B2A52CB2CE6D00E241AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */; };
+		5331B2A72CB2CE6D00E241AE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2A62CB2CE6D00E241AE /* GameScene.sks */; };
+		5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2A82CB2CE6D00E241AE /* Actions.sks */; };
+		5331B2AB2CB2CE6D00E241AE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AA2CB2CE6D00E241AE /* GameScene.swift */; };
+		5331B2AD2CB2CE6D00E241AE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */; };
+		5331B2B02CB2CE6D00E241AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2AF2CB2CE6D00E241AE /* Base */; };
+		5331B2B22CB2CE6E00E241AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2B12CB2CE6E00E241AE /* Assets.xcassets */; };
+		5331B2B52CB2CE6E00E241AE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2B42CB2CE6E00E241AE /* Base */; };
+		5331B2BF2CB2CE6E00E241AE /* tulutuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */; };
+		5331B2C92CB2CE6E00E241AE /* tulutuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */; };
+		5331B2CB2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,21 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53AD4FB72CB51B9200D22811 /* tulutulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulutulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53AD4FBC2CB51B9200D22811 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		53AD4FBE2CB51B9200D22811 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		53AD4FC02CB51B9200D22811 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		53AD4FC22CB51B9200D22811 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		53AD4FC52CB51B9200D22811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53AD4FC72CB51B9300D22811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		53AD4FCA2CB51B9300D22811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53AD4FD02CB51B9300D22811 /* tulutuluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AD4FD42CB51B9300D22811 /* tulutuluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluTests.swift; sourceTree = "<group>"; };
-		53AD4FDA2CB51B9300D22811 /* tulutuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53AD4FDE2CB51B9300D22811 /* tulutuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITests.swift; sourceTree = "<group>"; };
-		53AD4FE02CB51B9300D22811 /* tulutuluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		53AD4FED2CB51C4100D22811 /* GameTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameTileSet.sks; sourceTree = "<group>"; };
+		304D02F62CB520F90069883E /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
+		5331B2A12CB2CE6D00E241AE /* tulutulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulutulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5331B2A62CB2CE6D00E241AE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5331B2A82CB2CE6D00E241AE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5331B2AA2CB2CE6D00E241AE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5331B2AF2CB2CE6D00E241AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5331B2B12CB2CE6E00E241AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5331B2B42CB2CE6E00E241AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5331B2BA2CB2CE6E00E241AE /* tulutuluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluTests.swift; sourceTree = "<group>"; };
+		5331B2C42CB2CE6E00E241AE /* tulutuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITests.swift; sourceTree = "<group>"; };
+		5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,15 +104,15 @@
 		53AD4FB92CB51B9200D22811 /* tulutulu */ = {
 			isa = PBXGroup;
 			children = (
-				53AD4FBA2CB51B9200D22811 /* AppDelegate.swift */,
-				53AD4FBC2CB51B9200D22811 /* GameScene.sks */,
-				53AD4FED2CB51C4100D22811 /* GameTileSet.sks */,
-				53AD4FBE2CB51B9200D22811 /* Actions.sks */,
-				53AD4FC02CB51B9200D22811 /* GameScene.swift */,
-				53AD4FC22CB51B9200D22811 /* GameViewController.swift */,
-				53AD4FC42CB51B9200D22811 /* Main.storyboard */,
-				53AD4FC72CB51B9300D22811 /* Assets.xcassets */,
-				53AD4FC92CB51B9300D22811 /* LaunchScreen.storyboard */,
+				5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */,
+				5331B2A62CB2CE6D00E241AE /* GameScene.sks */,
+				304D02F62CB520F90069883E /* MyTileSet.sks */,
+				5331B2A82CB2CE6D00E241AE /* Actions.sks */,
+				5331B2AA2CB2CE6D00E241AE /* GameScene.swift */,
+				5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */,
+				5331B2AE2CB2CE6D00E241AE /* Main.storyboard */,
+				5331B2B12CB2CE6E00E241AE /* Assets.xcassets */,
+				5331B2B32CB2CE6E00E241AE /* LaunchScreen.storyboard */,
 			);
 			path = tulutulu;
 			sourceTree = "<group>";
@@ -238,12 +238,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AD4FBD2CB51B9200D22811 /* GameScene.sks in Resources */,
-				53AD4FC62CB51B9200D22811 /* Base in Resources */,
-				53AD4FC82CB51B9300D22811 /* Assets.xcassets in Resources */,
-				53AD4FBF2CB51B9200D22811 /* Actions.sks in Resources */,
-				53AD4FEE2CB51C4100D22811 /* GameTileSet.sks in Resources */,
-				53AD4FCB2CB51B9300D22811 /* Base in Resources */,
+				304D02F72CB520F90069883E /* MyTileSet.sks in Resources */,
+				5331B2A72CB2CE6D00E241AE /* GameScene.sks in Resources */,
+				5331B2B02CB2CE6D00E241AE /* Base in Resources */,
+				5331B2B22CB2CE6E00E241AE /* Assets.xcassets in Resources */,
+				5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */,
+				5331B2B52CB2CE6E00E241AE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,14 +452,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FHVXUTYV47;
+				DEVELOPMENT_TEAM = C8496U3L79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +480,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FHVXUTYV47;
+				DEVELOPMENT_TEAM = C8496U3L79;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
