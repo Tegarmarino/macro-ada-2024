@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5331B2A52CB2CE6D00E241AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */; };
+		5331B2A72CB2CE6D00E241AE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2A62CB2CE6D00E241AE /* GameScene.sks */; };
 		5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5331B2A82CB2CE6D00E241AE /* Actions.sks */; };
 		5331B2AB2CB2CE6D00E241AE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AA2CB2CE6D00E241AE /* GameScene.swift */; };
 		5331B2AD2CB2CE6D00E241AE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */; };
@@ -17,9 +18,6 @@
 		5331B2BF2CB2CE6E00E241AE /* tulutuluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2BE2CB2CE6E00E241AE /* tulutuluTests.swift */; };
 		5331B2C92CB2CE6E00E241AE /* tulutuluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */; };
 		5331B2CB2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */; };
-		53DB3BD52CB4252F0012D914 /* test.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD42CB4252F0012D914 /* test.sks */; };
-		53DB3BD72CB50C3D0012D914 /* MyTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */; };
-		53DB3BD92CB50EB70012D914 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53DB3BD82CB50EB70012D914 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +40,7 @@
 /* Begin PBXFileReference section */
 		5331B2A12CB2CE6D00E241AE /* tulutulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tulutulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5331B2A62CB2CE6D00E241AE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5331B2A82CB2CE6D00E241AE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		5331B2AA2CB2CE6D00E241AE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,9 +52,6 @@
 		5331B2C42CB2CE6E00E241AE /* tulutuluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tulutuluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5331B2C82CB2CE6E00E241AE /* tulutuluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITests.swift; sourceTree = "<group>"; };
 		5331B2CA2CB2CE6E00E241AE /* tulutuluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tulutuluUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		53DB3BD42CB4252F0012D914 /* test.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = test.sks; sourceTree = "<group>"; };
-		53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet.sks; sourceTree = "<group>"; };
-		53DB3BD82CB50EB70012D914 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				5331B2A42CB2CE6D00E241AE /* AppDelegate.swift */,
-				53DB3BD42CB4252F0012D914 /* test.sks */,
+				5331B2A62CB2CE6D00E241AE /* GameScene.sks */,
 				5331B2A82CB2CE6D00E241AE /* Actions.sks */,
 				5331B2AA2CB2CE6D00E241AE /* GameScene.swift */,
 				5331B2AC2CB2CE6D00E241AE /* GameViewController.swift */,
 				5331B2AE2CB2CE6D00E241AE /* Main.storyboard */,
-				53DB3BD62CB50C3D0012D914 /* MyTileSet.sks */,
 				5331B2B12CB2CE6E00E241AE /* Assets.xcassets */,
 				5331B2B32CB2CE6E00E241AE /* LaunchScreen.storyboard */,
-				53DB3BD82CB50EB70012D914 /* GameScene.sks */,
 			);
 			path = tulutulu;
 			sourceTree = "<group>";
@@ -241,13 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5331B2A72CB2CE6D00E241AE /* GameScene.sks in Resources */,
 				5331B2B02CB2CE6D00E241AE /* Base in Resources */,
 				5331B2B22CB2CE6E00E241AE /* Assets.xcassets in Resources */,
-				53DB3BD72CB50C3D0012D914 /* MyTileSet.sks in Resources */,
 				5331B2A92CB2CE6D00E241AE /* Actions.sks in Resources */,
-				53DB3BD92CB50EB70012D914 /* GameScene.sks in Resources */,
 				5331B2B52CB2CE6E00E241AE /* Base in Resources */,
-				53DB3BD52CB4252F0012D914 /* test.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
