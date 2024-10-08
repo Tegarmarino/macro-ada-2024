@@ -1,109 +1,122 @@
 //
 //  GameScene.swift
-//  tulutulu
+//  CobaTulu
 //
-//  Created by Dhammiko Dharmawan on 06/10/24.
+//  Created by Vanessa on 04/10/24.
 //
 
 import SpriteKit
 import GameplayKit
-
+protocol GameSceneDelegate: AnyObject {
+    func updateHealthUI(newHealth: Int)
+}
 class GameScene: SKScene {
     
-    var entities = [GKEntity]()
-    var graphs = [String : GKGraph]()
+    private var tulu: SKSpriteNode!
+    private var player: SKSpriteNode!
+    private var health = 3
+    weak var gameDelegate: GameSceneDelegate?
+    private var isInCollision = false
+    private var timeInCollision: TimeInterval = 0
+    private let collisionThreshold: TimeInterval = 1.0
     
-    private var lastUpdateTime : TimeInterval = 0
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
-    
-    override func sceneDidLoad() {
+    override func didMove(to view: SKView) {
+        
+        tulu = SKSpriteNode(imageNamed: "tulu")
+        tulu.size = CGSize(width: 100, height: 100)
+        tulu.position = CGPoint(x: 100, y: 100)
+        
+        player = SKSpriteNode(imageNamed: "player")
+        player.size = CGSize(width: 100, height: 100)
+        player.position = CGPoint(x: 300, y: 300)
 
-        self.lastUpdateTime = 0
-        
-        // Get label node from scene and store it for use later
-        self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
-        if let label = self.label {
-            label.alpha = 0.0
-            label.run(SKAction.fadeIn(withDuration: 2.0))
-        }
-        
-        // Create shape node to use during mouse interaction
-        let w = (self.size.width + self.size.height) * 0.05
-        self.spinnyNode = SKShapeNode.init(rectOf: CGSize.init(width: w, height: w), cornerRadius: w * 0.3)
-        
-        if let spinnyNode = self.spinnyNode {
-            spinnyNode.lineWidth = 2.5
-            
-            spinnyNode.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 1)))
-            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
-                                              SKAction.fadeOut(withDuration: 0.5),
-                                              SKAction.removeFromParent()]))
-        }
+        addChild(tulu)
+        addChild(player)
+
+        run(SKAction.repeatForever(SKAction.sequence([
+            SKAction.wait(forDuration: 2.0),
+            SKAction.run { [weak self] in
+                self?.moveTuluTowardsPlayer()
+            }
+        ])))
     }
     
-    
-    func touchDown(atPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.green
-            self.addChild(n)
-        }
-    }
-    
-    func touchMoved(toPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.blue
-            self.addChild(n)
-        }
-    }
-    
-    func touchUp(atPoint pos : CGPoint) {
-        if let n = self.spinnyNode?.copy() as! SKShapeNode? {
-            n.position = pos
-            n.strokeColor = SKColor.red
-            self.addChild(n)
-        }
-    }
-    
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        if let label = self.label {
-            label.run(SKAction.init(named: "Pulse")!, withKey: "fadeInOut")
-        }
-        
-        for t in touches { self.touchDown(atPoint: t.location(in: self)) }
-    }
-    
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches { self.touchMoved(toPoint: t.location(in: self)) }
-    }
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches { self.touchUp(atPoint: t.location(in: self)) }
-    }
-    
-    override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        for t in touches { self.touchUp(atPoint: t.location(in: self)) }
-    }
-    
-    
+    // Pindahkan pengecekan collision ke dalam fungsi update
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
-        
-        // Initialize _lastUpdateTime if it has not already been
-        if (self.lastUpdateTime == 0) {
-            self.lastUpdateTime = currentTime
-        }
-        
-        // Calculate time since last update
-        let dt = currentTime - self.lastUpdateTime
-        
-        // Update entities
-        for entity in self.entities {
-            entity.update(deltaTime: dt)
-        }
-        
-        self.lastUpdateTime = currentTime
+        checkCollision(currentTime)
     }
+    
+    private func moveTuluTowardsPlayer() {
+        guard let tulu = tulu, let player = player else { return }
+        
+        // Implementasi A* Search
+        let path = aStarSearch(start: tulu.position, goal: player.position)
+        
+        if let targetPosition = path.first {
+            let moveAction = SKAction.move(to: targetPosition, duration: 1.0)
+            tulu.run(moveAction)
+        }
+    }
+    
+    private func aStarSearch(start: CGPoint, goal: CGPoint) -> [CGPoint] {
+        return [goal]
+    }
+    
+    private func checkCollision(_ currentTime: TimeInterval) {
+        if tulu.frame.intersects(player.frame) {
+            // Jika mereka bertabrakan dan belum ada timer berjalan
+            if !isInCollision {
+                isInCollision = true
+                timeInCollision = currentTime // Simpan waktu ketika collision dimulai
+            } else {
+                // Jika collision sudah terjadi, hitung durasi collision
+                let timeElapsed = currentTime - timeInCollision
+                if timeElapsed >= collisionThreshold {
+                    reduceHealth()
+                    timeInCollision = currentTime
+                }
+            }
+        } else {
+            isInCollision = false
+        }
+    }
+
+    private func reduceHealth() {
+        if health > 0 {
+            health -= 1
+            gameDelegate?.updateHealthUI(newHealth: health)
+            
+            if health == 0 {
+                gameOver()
+            }
+        }
+    }
+    
+    // Fungsi untuk menangani game over
+    private func gameOver() {
+        let gameOverLabel = SKLabelNode(text: "Game Over")
+        gameOverLabel.fontSize = 50
+        gameOverLabel.fontColor = .red
+        gameOverLabel.position = CGPoint(x: size.width / 2, y: size.height / 2)
+        addChild(gameOverLabel)
+        
+        isPaused = true // Berhenti game
+    }
+    
+    // Fungsi untuk mendeteksi sentuhan di layar
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first {
+            let location = touch.location(in: self)
+            let moveAction = SKAction.move(to: location, duration: 0.3)
+            player.run(moveAction)
+        }
+    }
+    
 }
+
+
+
+
+
+
+
